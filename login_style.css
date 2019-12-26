@@ -23,6 +23,9 @@ nav{
 	text-align: center;
 	align-items: center;
 	line-height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .useless{
@@ -58,9 +61,7 @@ a{
 .box{
 	width: 600px;
 	padding: 20px;
-	position: absolute;
-	top: 10%;
-	left: 30%;
+	margin-top: 20px;
 	text-align: center;
 	border: 2px solid #a5a5a5;
 	background-image: linear-gradient(to bottom right,#191919,#2f2626);
